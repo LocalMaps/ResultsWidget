@@ -85,6 +85,15 @@
     background: url("../images/close-hover.png") center center no-repeat;
 }
 
+    .resultswidget-tbar-btn.dijitButton .select {
+        background-image: url('../images/results-select-icon.png');
+    }
+
+    .resultswidget-tbar-btn.dijitButtonHover .select {
+        background-image: url('../images/results-select-icon.png');
+    }
+
+
 /*grids*/
 .resultswidget-attr-grid {
 
@@ -139,6 +148,11 @@ span.skype_pnh_print_container, span[class^="skype_pnh_print_container"] {displa
     width: 140px !important;
     -moz-box-sizing: border-box;
     overflow: hidden;
+}
+
+.resultswidget-tbar-lmreport {
+    margin-top: 7px;
+    color:blue !important;
 }
 
 /* mail merge */
